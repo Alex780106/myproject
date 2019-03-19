@@ -5,7 +5,19 @@ public class Hello {
 //        System.out.println("Hello world");
         Person p = new Person();
         p.hello();
-        //不能再呼叫p的值
-        new Person().hello();
+        int age = 19;
+        Integer age2 = 19;
+        age2.hashCode(); //物件 參造資料型態
+
+        char f = '中';
+        Character c2 = 'A';
+        byte b = 120;
+        float weight = 66.5f;
+        double height = 1.7;
+        boolean yes = true;
+        boolean enroll = false;
+        String name = "Tom";
+
+
     }
 }
