@@ -1,30 +1,19 @@
 package com.alex
 
-import javafx.scene.text.FontWeight
-
 fun main(args: Array<String>) {
-    val h = Human(66.5f,1.7f)
-   println( h.bmi())
-   /* val s = Sing()
-    h.hello()
-    s.fuck()
-    //var //變數*/
+    Human().hello()
+    val age : Int = 19 //指定資料型態
 
-    var age: Int = 19;
-    var name: String
-    name = "Alex"
-    //age = 20; 會出現錯誤的 不能夠reassigned
-
+    var age1 = 19
+    age1 = 20
+    var weight = 66.5f
+    var name : String;
+    name = "Hank"
 
 }
 
-class Human(var  weight: Float,var height:Float) {
-    fun bmi () :Float {
-        val bmi = weight /(height * height)
-        return bmi
-    }
-    fun hello() {
+class Human{
+    fun hello(){
         println("Hello Kotlin")
     }
 }
-
